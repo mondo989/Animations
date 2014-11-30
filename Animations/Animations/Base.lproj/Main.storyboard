@@ -12,21 +12,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.70999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fEx-iK-Iux">
-                                <rect key="frame" x="55" y="354" width="210" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.043137256059999997" green="0.015686275440000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="tintColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Animate 3">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="animatedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZk-G5-4lf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" alpha="0.70999997854232788" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gIG-Wd-DTH">
-                                <rect key="frame" x="55" y="194" width="210" height="60"/>
+                                <rect key="frame" x="0.0" y="194" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.043137256059999997" green="0.015686275440000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
@@ -48,8 +35,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="animateButtonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KIM-Aa-N4E"/>
+                                    <action selector="animateButtonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ly-LE-fWi"/>
                                     <action selector="animatedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ai6-cx-5Qj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gHC-2f-PKv">
+                                <rect key="frame" x="206" y="5" width="120" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateButtonThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7P-Z0-fRf"/>
                                 </connections>
                             </button>
                         </subviews>

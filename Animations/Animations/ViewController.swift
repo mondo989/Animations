@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var animator: UIDynamicAnimator!
+    var gravity: UIGravityBehavior!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
      
+        animator = UIDynamicAnimator(referenceView: view)
+        gravity = UIGravityBehavior(items: [coloredSquare])
+        animator.addBehavior(gravity)
            }
+    
+    
     
     @IBAction func animatedButtonPressed(sender: AnyObject) {
         
@@ -37,7 +45,7 @@ class ViewController: UIViewController {
         // and in the animations block change the background color
         // to red and the x-position  of the frame
         UIView.animateWithDuration(1.0, animations: {
-            coloredSquare.backgroundColor = UIColor.whiteColor()
+            coloredSquare.backgroundColor = UIColor.yellowColor()
             
             // for the x-position I entered 320-50 (width of screen - width of the square)
             // if you want, you could just enter 270
@@ -136,6 +144,37 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func animateButtonSix(sender: AnyObject) {
+        
+        // Create and add a colored square
+        let coloredSquareThree = UIView()
+        
+        // set background color to blue
+        coloredSquareThree.backgroundColor = UIColor.blueColor()
+        
+        // set frame (position and size) of the square
+        // iOS coordinate system starts at the top left of the screen
+        // so this square will be at top left of screen, 50x50pt
+        // CG in CGRect stands for Core Graphics
+        coloredSquareThree.frame = CGRect(x: 230, y: 320, width: 90, height: 50)
+        
+        // finally, add the square to the screen
+        self.view.addSubview(coloredSquareThree)
+        
+        // lets set the duration to 1.0 seconds
+        // and in the animations block change the background color
+        // to red and the x-position  of the frame
+        UIView.animateWithDuration(1.0, animations: {
+            coloredSquareThree.backgroundColor = UIColor.whiteColor()
+            
+            // for the x-position I entered 320-50 (width of screen - width of the square)
+            // if you want, you could just enter 270
+            // but I prefer to enter the math as a reminder of what's happenings
+            coloredSquareThree.frame = CGRect(x: 30, y: 0, width: 40, height: 340)
+        })
+
+        
+    }
     
     
     

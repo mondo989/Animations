@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
      
         animator = UIDynamicAnimator(referenceView: view)
-        gravity = UIGravityBehavior(items: [coloredSquare])
+        gravity = UIGravityBehavior(items: [square])
         animator.addBehavior(gravity)
            }
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C289563A1A2D8E140037DB16 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28956391A2D8E140037DB16 /* test.swift */; };
 		C2D275751A28613F004D6A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D275741A28613F004D6A70 /* AppDelegate.swift */; };
 		C2D275771A28613F004D6A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D275761A28613F004D6A70 /* ViewController.swift */; };
 		C2D2757A1A28613F004D6A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D275781A28613F004D6A70 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C28956391A2D8E140037DB16 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		C2D2756F1A28613F004D6A70 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D275731A28613F004D6A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D275741A28613F004D6A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				C2D2757B1A28613F004D6A70 /* Images.xcassets */,
 				C2D2757D1A28613F004D6A70 /* LaunchScreen.xib */,
 				C2D275721A28613F004D6A70 /* Supporting Files */,
+				C28956391A2D8E140037DB16 /* test.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D275771A28613F004D6A70 /* ViewController.swift in Sources */,
+				C289563A1A2D8E140037DB16 /* test.swift in Sources */,
 				C2D275751A28613F004D6A70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				C2D275901A28613F004D6A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D275911A28613F004D6A70 /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				C2D275931A28613F004D6A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
